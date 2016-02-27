@@ -1,3 +1,4 @@
+sphinxjp.themes.basicstrap
 ipykernel
 numpy
 matplotlib

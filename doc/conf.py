@@ -130,6 +130,22 @@ except Exception:
 
 html_favicon = 'favicon.svg'
 html_title = project + ' version ' + release
+html_theme = 'basicstrap'
+html_theme_options = {
+    #'nosidebar': True,
+    'body_max_width': None,
+    #'rightsidebar': False,
+    #'sidebar_span': 4,
+}
+html_sidebars = {
+    '**': [
+        'globaltoc.html',
+        #'localtoc.html',
+        #'relations.html',
+        'sourcelink.html',
+        'searchbox.html',
+    ]
+}
 
 # -- Options for LaTeX output ---------------------------------------------
 

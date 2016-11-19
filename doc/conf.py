@@ -40,6 +40,9 @@ nbsphinx_thumbnails = {
     'gallery/*-rst': 'images/notebook_icon.png',
 }
 
+# If True, the intermediate RST files are copied to the HTML output directory:
+#nbsphinx_save_rst = True
+
 # This is processed by Jinja2 and inserted before each notebook
 nbsphinx_prolog = r"""
 {% set docname = 'doc/' + env.doc2path(env.docname, base=None) %}

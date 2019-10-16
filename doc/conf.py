@@ -130,6 +130,22 @@ except Exception:
 
 html_favicon = 'favicon.svg'
 html_title = project + ' version ' + release
+html_theme = 'sphinx_typlog_theme'
+html_theme_options = {
+    'navigation_with_keys': True,
+    'logo_name': 'nbsphinx',
+    'description': 'Jupyter Notebooks + Sphinx',
+    'github_user': 'spatialaudio',
+    'github_repo': 'nbsphinx'
+}
+html_sidebars = {
+    '**': [
+        'logo.html',
+        'github.html',
+        'globaltoc.html',
+        'searchbox.html',
+    ]
+}
 
 # -- Options for LaTeX output ---------------------------------------------
 

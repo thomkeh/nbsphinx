@@ -1,3 +1,4 @@
+sphinx-typlog-theme
 ipykernel
 numpy
 matplotlib

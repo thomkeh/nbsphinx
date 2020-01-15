@@ -23,8 +23,8 @@ intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
 }
 
-# Don't add .txt suffix to source files:
-html_sourcelink_suffix = ''
+# Don't copy source files, show links to Github repository instead
+html_copy_source = False
 
 # List of arguments to be passed to the kernel that executes the notebooks:
 nbsphinx_execute_arguments = [
@@ -130,6 +130,8 @@ except Exception:
 
 html_favicon = 'favicon.svg'
 html_title = project + ' version ' + release
+html_theme = 'insipid'
+html_permalinks_icon = '§'
 
 # -- Options for LaTeX output ---------------------------------------------
 

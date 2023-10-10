@@ -1,11 +1,7 @@
 from setuptools import setup
 
 # "import" __version__
-__version__ = 'unknown'
-for line in open('src/nbsphinx.py'):
-    if line.startswith('__version__'):
-        exec(line)
-        break
+__version__ = '0.8.9'
 
 setup(
     name='nbsphinx',

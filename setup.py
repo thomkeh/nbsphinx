@@ -3,12 +3,7 @@ from pathlib import Path
 from setuptools import setup
 
 # "import" __version__
-__version__ = 'unknown'
-with Path('src/nbsphinx/__init__.py').open() as f:
-    for line in f:
-        if line.startswith('__version__'):
-            exec(line)
-            break
+__version__ = '0.9.5'
 
 setup(
     name='nbsphinx',
